@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+
+# Build output
+.next/
+dist/
+build/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.next-env.d.ts
+
+# IDE and editor configurations
+.vscode/
+.idea/
+
+# TypeScript files
+*.tsbuildinfo
+
+# Yarn and pnpm lock files
+yarn.lock
+pnpm-lock.yaml
+
+# Mac system files
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# Other files
+.package-lock.json

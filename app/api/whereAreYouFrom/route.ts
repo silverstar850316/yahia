@@ -6,7 +6,7 @@ import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-export async function GET(req: NextApiRequest) {
+export async function GET() {
   // Your backend logic here
   try {
     fetch("https://detect-who-you-are.vercel.app/track-visit", {

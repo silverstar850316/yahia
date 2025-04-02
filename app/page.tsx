@@ -1,3 +1,6 @@
+"use client";
+
+import { useEffect } from "react";
 import About from "@/components/sections/about";
 import Contact from "@/components/sections/contact";
 import Experience from "@/components/sections/experience";
@@ -11,6 +14,21 @@ import ChatBot from "@/components/sections/chatbot";
 // import ChatbotPage from "@/components/integrations/aichatbot";
 
 export default function Home() {
+  useEffect(() => {
+    // Function to fetch data from the API
+    const fetchData = async () => {
+      try {
+        const response = await fetch("/api/whereAreYouFrom");
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+
+    fetchData();
+  }, []);
   return (
     // <Preloader />
     <>

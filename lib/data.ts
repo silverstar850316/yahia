@@ -276,23 +276,26 @@ export const projectsSection: ProjectSection = {
 export const projectsData: ProjectData[] = [
   {
     id: "project-1",
-    title: "Abdamin International Limited",
+    title: "Spoken",
     description:
-      "A responsive web application for Abdamin International Limited, a multi-sector company in Nigeria.",
+      "Spoken.io aggregates furniture and home décor products from various online stores, allowing users to compare prices and find the best deals. The platform emphasizes transparency, aiming to eliminate hidden markups and provide clear pricing information. Users can explore a diverse selection of items, ensuring they find pieces that fit their style and budget.",
     featured: true,
     cover: {
-      url: "/projects/abdamin.webp",
-      alt: "Abdamin International Limited",
+      url: "/projects/spoken.webp",
+      alt: "spoken.io",
     },
     tech: [
       { name: "React", icon: SiReact },
+      { name: "Next.js", icon: SiNextdotjs },
       { name: "TypeScript", icon: SiTypescript },
       { name: "Tailwind", icon: SiTailwindcss },
-      { name: "Framer Motion", icon: SiFramer },
+      { name: "PHP", icon: SiPhp },
+      { name: "MySQL", icon: SiMysql },
+      { name: "Figma", icon: SiFigma },
     ],
     links: {
-      github: "https://github.com/NabsCodes/abdamin",
-      live: "https://abdamin.com/",
+      // github: "https://github.com/NabsCodes/abdamin",
+      live: "https://spoken.io/",
     },
     details: {
       challenge:
@@ -319,13 +322,15 @@ export const projectsData: ProjectData[] = [
     },
     tech: [
       { name: "React", icon: SiReact },
+      { name: "Next.js", icon: SiNextdotjs },
       { name: "TypeScript", icon: SiTypescript },
       { name: "Tailwind", icon: SiTailwindcss },
-      { name: "Framer Motion", icon: SiFramer },
+      { name: "PHP", icon: SiPhp },
+      { name: "MySQL", icon: SiMysql },
     ],
     links: {
-      github: "https://github.com/NabsCodes/horizon",
-      live: "https://horizonbusiness.vercel.app/",
+      // github: "https://github.com/NabsCodes/horizon",
+      live: "https://spoken.io",
     },
     details: {
       challenge:
